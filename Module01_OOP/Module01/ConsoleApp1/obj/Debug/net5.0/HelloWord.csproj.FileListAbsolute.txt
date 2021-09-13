@@ -1,0 +1,16 @@
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\bin\Debug\net5.0\HelloWord.exe
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\bin\Debug\net5.0\HelloWord.deps.json
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\bin\Debug\net5.0\HelloWord.runtimeconfig.json
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\bin\Debug\net5.0\HelloWord.runtimeconfig.dev.json
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\bin\Debug\net5.0\HelloWord.dll
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\bin\Debug\net5.0\ref\HelloWord.dll
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\bin\Debug\net5.0\HelloWord.pdb
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\obj\Debug\net5.0\HelloWord.csproj.AssemblyReference.cache
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\obj\Debug\net5.0\HelloWord.GeneratedMSBuildEditorConfig.editorconfig
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\obj\Debug\net5.0\HelloWord.AssemblyInfoInputs.cache
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\obj\Debug\net5.0\HelloWord.AssemblyInfo.cs
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\obj\Debug\net5.0\HelloWord.csproj.CoreCompileInputs.cache
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\obj\Debug\net5.0\HelloWord.dll
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\obj\Debug\net5.0\ref\HelloWord.dll
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\obj\Debug\net5.0\HelloWord.pdb
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Module01\ConsoleApp1\obj\Debug\net5.0\HelloWord.genruntimeconfig.cache
