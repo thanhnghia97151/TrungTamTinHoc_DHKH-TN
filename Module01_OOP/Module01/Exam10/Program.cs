@@ -15,8 +15,18 @@ namespace Exam10
             Console.WriteLine("Nhap s: ");
             int s = int.Parse(Console.ReadLine());
 
-            int ts = ((s + 60) - 1) % 60;
-            int tm = 0;
+            Console.Write("Nhap k giay: ");
+            int k = int.Parse(Console.ReadLine());
+
+            int t = (h * 3600 + m * 60 + s - k % 86400 +86400)%86400;
+            h = t / 3600;
+            t = t % 3600;
+            m = t / 60;
+            t = t % 60;
+            s = t / 60;
+
+            Console.WriteLine($"{h}:{m}:{s}");
+
         }
     }
 }

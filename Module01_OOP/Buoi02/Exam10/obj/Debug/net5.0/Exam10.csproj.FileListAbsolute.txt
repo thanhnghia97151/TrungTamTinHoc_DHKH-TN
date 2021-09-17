@@ -1,0 +1,15 @@
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\bin\Debug\net5.0\Exam10.exe
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\bin\Debug\net5.0\Exam10.deps.json
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\bin\Debug\net5.0\Exam10.runtimeconfig.json
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\bin\Debug\net5.0\Exam10.runtimeconfig.dev.json
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\bin\Debug\net5.0\Exam10.dll
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\bin\Debug\net5.0\ref\Exam10.dll
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\bin\Debug\net5.0\Exam10.pdb
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\obj\Debug\net5.0\Exam10.GeneratedMSBuildEditorConfig.editorconfig
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\obj\Debug\net5.0\Exam10.AssemblyInfoInputs.cache
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\obj\Debug\net5.0\Exam10.AssemblyInfo.cs
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\obj\Debug\net5.0\Exam10.csproj.CoreCompileInputs.cache
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\obj\Debug\net5.0\Exam10.dll
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\obj\Debug\net5.0\ref\Exam10.dll
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\obj\Debug\net5.0\Exam10.pdb
+E:\TrungTamTinHoc_DHKH&TN\Module01_OOP\Buoi02\Exam10\obj\Debug\net5.0\Exam10.genruntimeconfig.cache
