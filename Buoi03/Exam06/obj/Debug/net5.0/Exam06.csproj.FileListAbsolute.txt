@@ -1,0 +1,16 @@
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\bin\Debug\net5.0\Exam06.exe
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\bin\Debug\net5.0\Exam06.deps.json
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\bin\Debug\net5.0\Exam06.runtimeconfig.json
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\bin\Debug\net5.0\Exam06.runtimeconfig.dev.json
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\bin\Debug\net5.0\Exam06.dll
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\bin\Debug\net5.0\ref\Exam06.dll
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\bin\Debug\net5.0\Exam06.pdb
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\obj\Debug\net5.0\Exam06.csproj.AssemblyReference.cache
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\obj\Debug\net5.0\Exam06.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\obj\Debug\net5.0\Exam06.AssemblyInfoInputs.cache
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\obj\Debug\net5.0\Exam06.AssemblyInfo.cs
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\obj\Debug\net5.0\Exam06.csproj.CoreCompileInputs.cache
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\obj\Debug\net5.0\Exam06.dll
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\obj\Debug\net5.0\ref\Exam06.dll
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\obj\Debug\net5.0\Exam06.pdb
+D:\TrungTamTinHoc_DHKH-TN\Buoi03\Exam06\obj\Debug\net5.0\Exam06.genruntimeconfig.cache
