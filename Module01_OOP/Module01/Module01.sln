@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam08", "Exam08\Exam08.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam09", "Exam09\Exam09.csproj", "{FDB44DE9-862C-474F-A8CC-7A7FA69A009C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam10", "Exam10\Exam10.csproj", "{8BA3709A-0820-4D82-9D25-9A9944351B1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam10", "Exam10\Exam10.csproj", "{8BA3709A-0820-4D82-9D25-9A9944351B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_Test", "Exam_Test\Exam_Test.csproj", "{F33E496D-67F9-495C-9DEC-639FD81DB468}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{8BA3709A-0820-4D82-9D25-9A9944351B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BA3709A-0820-4D82-9D25-9A9944351B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BA3709A-0820-4D82-9D25-9A9944351B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33E496D-67F9-495C-9DEC-639FD81DB468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33E496D-67F9-495C-9DEC-639FD81DB468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33E496D-67F9-495C-9DEC-639FD81DB468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33E496D-67F9-495C-9DEC-639FD81DB468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
