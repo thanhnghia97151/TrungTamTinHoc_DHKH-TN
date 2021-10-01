@@ -1,0 +1,16 @@
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.exe
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.deps.json
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.json
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.dev.json
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.dll
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\bin\Debug\net5.0\ref\ConsoleApp1.dll
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.pdb
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.AssemblyReference.cache
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfo.cs
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.dll
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\obj\Debug\net5.0\ref\ConsoleApp1.dll
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.pdb
+D:\TrungTamTinHoc_DHKH-TN\Module01_OOP\Buoi07\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.genruntimeconfig.cache
