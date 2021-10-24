@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\TrungTamTinHoc_DHKH-TN\\Module01_OOP\\Buoi06\\Exam02\\Exam02.csproj",
         "projectName": "Exam02",
         "projectPath": "D:\\TrungTamTinHoc_DHKH-TN\\Module01_OOP\\Buoi06\\Exam02\\Exam02.csproj",
-        "packagesPath": "C:\\Users\\ThanhNghiaJuJu\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ThanhnghiaPC\\.nuget\\packages\\",
         "outputPath": "D:\\TrungTamTinHoc_DHKH-TN\\Module01_OOP\\Buoi06\\Exam02\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ThanhNghiaJuJu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ThanhnghiaPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

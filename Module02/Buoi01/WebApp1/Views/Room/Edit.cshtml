@@ -1,0 +1,14 @@
+﻿@model WebApp1.Models.Room
+<form method="post">
+    <div>
+        <label>Room Number</label>
+        <input type="text" name="number" value="@Model.Number" />
+    </div>
+    <div>
+        <label>Capacity</label>
+        <input type="text" name="capacity" value="@Model.Capacity" />
+    </div>
+    <div>
+        <input type="submit" value="Save"/>
+    </div>
+</form>

@@ -1,0 +1,22 @@
+﻿@model WebApp1.Models.Timeslot;
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers 
+<form method="post">
+    <div>
+        <label asp-for="Weekday">Weekday</label>
+        <input type="text" asp-for="Weekday" />
+    </div>
+    <div>
+        <label asp-for="Start">Start</label>
+        <input type="text" asp-for="Start" />
+    </div>
+    <div>
+        <label asp-for="End">End</label>
+        <input type="text" asp-for="End" />
+    </div>
+    <div>
+        <button>Save Change</button>
+    </div>
+    <div>
+        <a href="/timeslot">Back to list</a>
+    </div>
+</form>

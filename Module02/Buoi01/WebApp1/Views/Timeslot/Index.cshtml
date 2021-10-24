@@ -1,0 +1,43 @@
+﻿@model List<WebApp1.Models.Timeslot>
+
+<a href="/timeslot/create">Create</a>
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Weekday</th>
+                <th>Start time</th>
+                <th>End time</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Weekday</td>
+                <td>@item.Start.ToString(@"hh\:mm")</td>
+                <td>@item.End.ToString(@"hh\:mm")</td>
+                <td>
+                    <a href="/timeslot/edit/@item.Id">
+                        <i class="fas fa-edit"></i>
+                    </a>
+
+                </td>
+                <td>
+                    <a class="d" href="/timeslot/delete/@item.Id">
+                        <i class="fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+                
+            }
+        </tbody>
+    </table>
+<script>
+    $('.d').click(() => {
+        return confirm('Are you sure delete?');
+    });
+</script>
