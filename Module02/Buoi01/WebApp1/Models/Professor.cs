@@ -13,5 +13,8 @@ namespace WebApp1.Models
         public int Id { get; set; }
         [Column("Professor_Name")]
         public string FullName { get; set; }
+
+        // Thêm prop để sử dụng mapping 
+        public List<ModuleProfessor> ModuleProfessors { get; set; }
     }
 }

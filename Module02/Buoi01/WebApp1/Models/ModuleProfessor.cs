@@ -13,5 +13,9 @@ namespace WebApp1.Models
         public int ModuleId { get; set; }
         [Column("ProfessorId")]
         public int ProfessorId { get; set; }
+
+        //
+        public Module Module { get; set; }
+        public Professor Processor { get; set; }
     }
 }

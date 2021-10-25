@@ -155,3 +155,4 @@ D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\T
 D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Professor\Index.cshtml.g.cs
 D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Module\Index.cshtml.g.cs
 D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Module\Detail.cshtml.g.cs
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Module\Browser.cshtml.g.cs

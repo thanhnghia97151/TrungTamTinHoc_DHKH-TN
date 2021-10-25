@@ -20,5 +20,22 @@ namespace WebApp1.Models
             context.ModuleProfessors.AddRange(list);
             return context.SaveChanges();
         }
+        public int Add(ModuleProfessor obj)
+        {
+            context.ModuleProfessors.Add(obj);
+            return context.SaveChanges();
+        }
+        public int Save(ModuleProfessor obj)
+        {
+            if (context.ModuleProfessors.Any(p => p.ModuleId == obj.ModuleId && p.ProfessorId == obj.ProfessorId))
+            {
+                context.ModuleProfessors.Remove(obj);
+            }
+            else
+            {
+                context.ModuleProfessors.Add(obj);
+            }
+            return context.SaveChanges();
+        }
     }
 }

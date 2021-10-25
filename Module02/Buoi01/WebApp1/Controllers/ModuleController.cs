@@ -32,8 +32,15 @@ namespace WebApp1.Controllers
         }
         public IActionResult Detail(int id)
         {
-            ViewBag.professors = professorRepository.GetProfessor();
-            ViewBag.moduleProfessors = moduleProfessorRepository.GetModuleProfessorsByModule(id);
+            // ViewBag.professors = professorRepository.GetProfessor();
+
+            ViewBag.professors= professorRepository.GetProfessorsNotInModule(id);
+            //-------------------------------------------------------------------
+            //ViewBag.moduleProfessors = moduleProfessorRepository.GetModuleProfessorsByModule(id);
+
+            //---------------------------------------------------------------------------
+            //ViewBag.moduleProfessors = professorRepository.GetProfessorsByMoudleId(id);
+            ViewBag.professsorsModule = professorRepository.GetProfessorsByMoudleId(id);
             return View(repository.GetModuleById(id));
         }
         [HttpPost]
@@ -48,5 +55,22 @@ namespace WebApp1.Controllers
             moduleProfessorRepository.Add(list);
             return Redirect($"/module/detail/{id}");
         }
+
+
+        //
+        public IActionResult Browser(int id)
+        {
+            ViewBag.professors = professorRepository.GetProfessorCheckeds(id);
+            return View(repository.GetModuleById(id));
+        }
+        //
+        public IActionResult AddModuleProfessor(ModuleProfessor obj)
+        {
+            return Json(moduleProfessorRepository.Save(obj));
+            //return Json(moduleProfessorRepository.Add(obj));
+        }
+
+        //
+
     }
 }

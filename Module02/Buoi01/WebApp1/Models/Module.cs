@@ -15,5 +15,8 @@ namespace WebApp1.Models
         public string Code { get; set; }
         [Column("ModuleName")]
         public string Name { get; set; }
+
+        // thêm prop để sữ dũng mapping
+        public List<ModuleProfessor> ModuleProfessors { get; set; }
     }
 }
