@@ -19,10 +19,14 @@ namespace WebApp1.Models
         public DbSet<Module> Modules { get; set; }
         public DbSet<ProfessorChecked> professorCheckeds { get; set; }
         public DbSet<ModuleProfessor> ModuleProfessors { get; set; }
+        public DbSet<Group> Groups { get; set; }
+        public DbSet<ModuleGroup> ModuleGroups { get; set; }
+        public DbSet<Class> Classes { get; set; }
+        public DbSet<Member> Members { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
+            
             modelBuilder.Entity<ModuleProfessor>().HasKey(p => new { p.ModuleId, p.ProfessorId });
             modelBuilder.Entity<ModuleProfessor>()
                 .HasOne(mp => mp.Module)
@@ -32,6 +36,17 @@ namespace WebApp1.Models
                 .HasOne(mp => mp.Processor)
                 .WithMany(p => p.ModuleProfessors)
                 .HasForeignKey(mp => mp.ProfessorId);
+
+            modelBuilder.Entity<ModuleGroup>().HasKey(p => new { p.ModuleId, p.GroupId });
+            modelBuilder.Entity<ModuleGroup>()
+                .HasOne(mg => mg.Module)
+                .WithMany(m => m.ModuleGroups)
+                .HasForeignKey(mg => mg.ModuleId);
+            modelBuilder.Entity<ModuleGroup>()
+                .HasOne(mg => mg.Group)
+                .WithMany(m => m.ModuleGroups)
+                .HasForeignKey(mg => mg.GroupId);
+
         }
 
         

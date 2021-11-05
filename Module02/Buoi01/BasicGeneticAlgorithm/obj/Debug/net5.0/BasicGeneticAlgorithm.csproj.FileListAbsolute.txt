@@ -1,0 +1,16 @@
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\bin\Debug\net5.0\BasicGeneticAlgorithm.exe
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\bin\Debug\net5.0\BasicGeneticAlgorithm.deps.json
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\bin\Debug\net5.0\BasicGeneticAlgorithm.runtimeconfig.json
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\bin\Debug\net5.0\BasicGeneticAlgorithm.runtimeconfig.dev.json
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\bin\Debug\net5.0\BasicGeneticAlgorithm.dll
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\bin\Debug\net5.0\ref\BasicGeneticAlgorithm.dll
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\bin\Debug\net5.0\BasicGeneticAlgorithm.pdb
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\obj\Debug\net5.0\BasicGeneticAlgorithm.csproj.AssemblyReference.cache
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\obj\Debug\net5.0\BasicGeneticAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\obj\Debug\net5.0\BasicGeneticAlgorithm.AssemblyInfoInputs.cache
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\obj\Debug\net5.0\BasicGeneticAlgorithm.AssemblyInfo.cs
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\obj\Debug\net5.0\BasicGeneticAlgorithm.csproj.CoreCompileInputs.cache
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\obj\Debug\net5.0\BasicGeneticAlgorithm.dll
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\obj\Debug\net5.0\ref\BasicGeneticAlgorithm.dll
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\obj\Debug\net5.0\BasicGeneticAlgorithm.pdb
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\BasicGeneticAlgorithm\obj\Debug\net5.0\BasicGeneticAlgorithm.genruntimeconfig.cache

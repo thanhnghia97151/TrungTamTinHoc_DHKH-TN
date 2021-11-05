@@ -4,6 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+
     <link href="~/css/all.min.css" rel="stylesheet" />
     <link href="~/css/bootstrap.min.css" rel="stylesheet" />
     <script src="~/js/bootstrap.min.js"></script>
@@ -13,6 +14,21 @@
 
 </head>
 <body>
+    <ul>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <li><a href="/auth/logout">Logout</a></li>
+            <li><a href="/auth">Profile</a></li>
+        }
+        else
+        {
+            <li><a href="/auth/register">Register</a></li>
+            <li><a href="/auth/login">Login</a></li>
+        }
+
+
+
+    </ul>
     <div>
         @RenderBody()
     </div>

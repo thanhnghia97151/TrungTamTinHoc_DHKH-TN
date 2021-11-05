@@ -18,5 +18,6 @@ namespace WebApp1.Models
 
         // thêm prop để sữ dũng mapping
         public List<ModuleProfessor> ModuleProfessors { get; set; }
+        public List<ModuleGroup> ModuleGroups { get; set; }
     }
 }

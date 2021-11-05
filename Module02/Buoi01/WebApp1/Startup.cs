@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using WebApp1.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Data.Sql;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace WebApp1
 {
@@ -23,11 +24,35 @@ namespace WebApp1
         }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        
+        
+        
+        
+        
+        
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme);
+            services.AddAuthentication("Cookies").AddCookie(p =>
+            {
+                p.LoginPath = "/auth/login";
+                //p.AccessDeniedPath = "/auth/denied";
+                p.ExpireTimeSpan = TimeSpan.FromDays(30);
+            });
             services.AddDbContext<CSContext>(p => p.UseSqlServer(configuration.GetConnectionString("CS")));
         }
+
+
+
+
+
+
+
+
+
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -41,6 +66,11 @@ namespace WebApp1
 
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseAuthentication();
+            //Nhớ Authorize dùng sau Authentication
+            app.UseAuthorization();
+
+
 
             app.UseEndpoints(endpoints =>
             {

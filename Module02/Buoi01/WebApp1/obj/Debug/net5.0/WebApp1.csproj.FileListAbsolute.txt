@@ -156,3 +156,14 @@ D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\P
 D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Module\Index.cshtml.g.cs
 D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Module\Detail.cshtml.g.cs
 D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Module\Browser.cshtml.g.cs
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Group\Index.cshtml.g.cs
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\ModuleGroup\Index.cshtml.g.cs
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\bin\Debug\net5.0\NPOI.OOXML.dll
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\bin\Debug\net5.0\NPOI.OpenXml4Net.dll
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\bin\Debug\net5.0\NPOI.OpenXmlFormats.dll
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\bin\Debug\net5.0\NPOI.dll
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\bin\Debug\net5.0\ICSharpCode.SharpZipLib.dll
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Auth\Login.cshtml.g.cs
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Auth\Register.cshtml.g.cs
+D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\obj\Debug\net5.0\Razor\Views\Auth\Index.cshtml.g.cs
