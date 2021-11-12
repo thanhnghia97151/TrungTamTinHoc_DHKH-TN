@@ -38,9 +38,11 @@ namespace WebApp1
             services.AddAuthentication("Cookies").AddCookie(p =>
             {
                 p.LoginPath = "/auth/login";
-                //p.AccessDeniedPath = "/auth/denied";
-                p.ExpireTimeSpan = TimeSpan.FromDays(30);
+                p.AccessDeniedPath = "/auth/denied";
+                p.ExpireTimeSpan = TimeSpan.FromDays(60);
+                p.Cookie.Name = "cse.net.vn";
             });
+            services.AddScoped(p => new SiteProvider(p.GetService<CSContext>()));
             services.AddDbContext<CSContext>(p => p.UseSqlServer(configuration.GetConnectionString("CS")));
         }
 
@@ -79,6 +81,7 @@ namespace WebApp1
                 //    await context.Response.WriteAsync("Hello World!");
                 //});
                 endpoints.MapDefaultControllerRoute();
+                endpoints.MapControllerRoute(name: "dashboard", pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

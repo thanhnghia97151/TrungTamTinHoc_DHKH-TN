@@ -15,5 +15,6 @@ namespace WebApp1.Models
         public byte[] Password { get; set; }
         public string Email { get; set; }
         public bool Gender { get; set; }
+        public string Token { get; set; }
     }
 }

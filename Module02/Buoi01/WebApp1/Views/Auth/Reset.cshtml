@@ -1,0 +1,33 @@
+﻿@model ResetPassword
+
+@{
+    Layout = "_LayoutAuth";
+}
+
+
+
+<div class="card-header"><h3 class="text-center font-weight-light my-4">New Password</h3></div>
+<div class="card-body">
+    <div asp-validation-summary="All"></div>
+    <form method="post">
+
+        <div class="form-group">
+            <label class="small mb-1" asp-for="NewPassword">New Password</label>
+            <input class="form-control py-4" placeholder="Enter New Password" type="password" asp-for="NewPassword" />
+        </div>
+        <div class="form-group">
+            <label class="small mb-1" asp-for="ConfirmPassword">ConfirmPassword</label>
+            <input class="form-control py-4" asp-for="ConfirmPassword" type="password" placeholder="Enter password" />
+        </div>
+
+        <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+            
+
+            <button class="btn btn-primary">Change Password</button>
+        </div>
+    </form>
+</div>
+<div class="card-footer text-center">
+</div>
+
+

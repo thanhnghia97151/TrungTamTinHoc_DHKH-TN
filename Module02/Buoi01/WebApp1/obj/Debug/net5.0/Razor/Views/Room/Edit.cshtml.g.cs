@@ -12,14 +12,53 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\_ViewImports.cshtml"
+using WebApp1.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\_ViewImports.cshtml"
+using WebApp1.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0a1918c092cdabb72a88a595e7e9599c1e08bd44", @"/Views/Room/Edit.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bb8f415ee837e403ed49c567f4539b4c654de94d", @"/Views/_ViewImports.cshtml")]
     public class Views_Room_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<WebApp1.Models.Room>
     {
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        #line hidden
+        #pragma warning disable 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
+        #pragma warning restore 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner __tagHelperRunner = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner();
+        #pragma warning disable 0169
+        private string __tagHelperStringValueBuffer;
+        #pragma warning restore 0169
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __backed__tagHelperScopeManager = null;
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __tagHelperScopeManager
+        {
+            get
+            {
+                if (__backed__tagHelperScopeManager == null)
+                {
+                    __backed__tagHelperScopeManager = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager(StartTagHelperWritingScope, EndTagHelperWritingScope);
+                }
+                return __backed__tagHelperScopeManager;
+            }
+        }
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper;
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
-            WriteLiteral("<form method=\"post\">\r\n    <div>\r\n        <label>Room Number</label>\r\n        <input type=\"text\" name=\"number\"");
-            BeginWriteAttribute("value", " value=\"", 137, "\"", 158, 1);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a1918c092cdabb72a88a595e7e9599c1e08bd443471", async() => {
+                WriteLiteral("\r\n    <div>\r\n        <label>Room Number</label>\r\n        <input type=\"text\" name=\"number\"");
+                BeginWriteAttribute("value", " value=\"", 137, "\"", 158, 1);
 #nullable restore
 #line 5 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\Room\Edit.cshtml"
 WriteAttributeValue("", 145, Model.Number, 145, 13, false);
@@ -27,9 +66,9 @@ WriteAttributeValue("", 145, Model.Number, 145, 13, false);
 #line default
 #line hidden
 #nullable disable
-            EndWriteAttribute();
-            WriteLiteral(" />\r\n    </div>\r\n    <div>\r\n        <label>Capacity</label>\r\n        <input type=\"text\" name=\"capacity\"");
-            BeginWriteAttribute("value", " value=\"", 262, "\"", 285, 1);
+                EndWriteAttribute();
+                WriteLiteral(" />\r\n    </div>\r\n    <div>\r\n        <label>Capacity</label>\r\n        <input type=\"text\" name=\"capacity\"");
+                BeginWriteAttribute("value", " value=\"", 262, "\"", 285, 1);
 #nullable restore
 #line 9 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\Room\Edit.cshtml"
 WriteAttributeValue("", 270, Model.Capacity, 270, 15, false);
@@ -37,8 +76,24 @@ WriteAttributeValue("", 270, Model.Capacity, 270, 15, false);
 #line default
 #line hidden
 #nullable disable
-            EndWriteAttribute();
-            WriteLiteral(" />\r\n    </div>\r\n    <div>\r\n        <input type=\"submit\" value=\"Save\"/>\r\n    </div>\r\n</form>\r\n");
+                EndWriteAttribute();
+                WriteLiteral(" />\r\n    </div>\r\n    <div>\r\n        <input type=\"submit\" value=\"Save\"/>\r\n    </div>\r\n");
+            }
+            );
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper.Method = (string)__tagHelperAttribute_0.Value;
+            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
+            await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+            if (!__tagHelperExecutionContext.Output.IsContentModified)
+            {
+                await __tagHelperExecutionContext.SetOutputContentAsync();
+            }
+            Write(__tagHelperExecutionContext.Output);
+            __tagHelperExecutionContext = __tagHelperScopeManager.End();
+            WriteLiteral("\r\n");
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

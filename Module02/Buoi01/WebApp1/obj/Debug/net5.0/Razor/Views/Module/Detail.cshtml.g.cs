@@ -12,9 +12,48 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\_ViewImports.cshtml"
+using WebApp1.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\_ViewImports.cshtml"
+using WebApp1.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7152981c3824beec6b2e35f4f9843926e8a0f595", @"/Views/Module/Detail.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bb8f415ee837e403ed49c567f4539b4c654de94d", @"/Views/_ViewImports.cshtml")]
     public class Views_Module_Detail : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<WebApp1.Models.Module>
     {
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        #line hidden
+        #pragma warning disable 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
+        #pragma warning restore 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner __tagHelperRunner = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner();
+        #pragma warning disable 0169
+        private string __tagHelperStringValueBuffer;
+        #pragma warning restore 0169
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __backed__tagHelperScopeManager = null;
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __tagHelperScopeManager
+        {
+            get
+            {
+                if (__backed__tagHelperScopeManager == null)
+                {
+                    __backed__tagHelperScopeManager = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager(StartTagHelperWritingScope, EndTagHelperWritingScope);
+                }
+                return __backed__tagHelperScopeManager;
+            }
+        }
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper;
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper;
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
@@ -81,7 +120,9 @@ namespace AspNetCore
             WriteLiteral("\r\n");
             WriteLiteral("\r\n");
             WriteLiteral("\r\n\r\n");
-            WriteLiteral("            </tbody>\r\n        </table>\r\n        <form method=\"post\">\r\n            <div>\r\n                <label>Professor</label>\r\n                <select class=\"form-control\" name=\"professorId\" multiple>\r\n");
+            WriteLiteral("            </tbody>\r\n        </table>\r\n        ");
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7152981c3824beec6b2e35f4f9843926e8a0f5955803", async() => {
+                WriteLiteral("\r\n            <div>\r\n                <label>Professor</label>\r\n                <select class=\"form-control\" name=\"professorId\" multiple>\r\n");
 #nullable restore
 #line 58 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\Module\Detail.cshtml"
                      foreach (WebApp1.Models.Professor item in ViewBag.professors)
@@ -90,17 +131,8 @@ namespace AspNetCore
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("                        <option");
-            BeginWriteAttribute("value", " value=\"", 2236, "\"", 2252, 1);
-#nullable restore
-#line 60 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\Module\Detail.cshtml"
-WriteAttributeValue("", 2244, item.Id, 2244, 8, false);
-
-#line default
-#line hidden
-#nullable disable
-            EndWriteAttribute();
-            WriteLiteral(">");
+                WriteLiteral("                        ");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7152981c3824beec6b2e35f4f9843926e8a0f5956531", async() => {
 #nullable restore
 #line 60 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\Module\Detail.cshtml"
                                             Write(item.FullName);
@@ -108,7 +140,29 @@ WriteAttributeValue("", 2244, item.Id, 2244, 8, false);
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</option>\r\n");
+                }
+                );
+                __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper>();
+                __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper);
+                BeginWriteTagHelperAttribute();
+#nullable restore
+#line 60 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\Module\Detail.cshtml"
+                           WriteLiteral(item.Id);
+
+#line default
+#line hidden
+#nullable disable
+                __tagHelperStringValueBuffer = EndWriteTagHelperAttribute();
+                __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper.Value = __tagHelperStringValueBuffer;
+                __tagHelperExecutionContext.AddTagHelperAttribute("value", __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper.Value, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+                await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+                if (!__tagHelperExecutionContext.Output.IsContentModified)
+                {
+                    await __tagHelperExecutionContext.SetOutputContentAsync();
+                }
+                Write(__tagHelperExecutionContext.Output);
+                __tagHelperExecutionContext = __tagHelperScopeManager.End();
+                WriteLiteral("\r\n");
 #nullable restore
 #line 61 "D:\TrungTamTinHoc_DHKH-TN\Module02\Buoi01\WebApp1\Views\Module\Detail.cshtml"
                     }
@@ -116,13 +170,24 @@ WriteAttributeValue("", 2244, item.Id, 2244, 8, false);
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("\r\n");
-            WriteLiteral(@"                </select>
-            </div>
-            <div>
-                <button type=""submit"">Save Changes</button>
-            </div>
-        </form>
+                WriteLiteral("\r\n");
+                WriteLiteral("                </select>\r\n            </div>\r\n            <div>\r\n                <button type=\"submit\">Save Changes</button>\r\n            </div>\r\n        ");
+            }
+            );
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper.Method = (string)__tagHelperAttribute_0.Value;
+            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
+            await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+            if (!__tagHelperExecutionContext.Output.IsContentModified)
+            {
+                await __tagHelperExecutionContext.SetOutputContentAsync();
+            }
+            Write(__tagHelperExecutionContext.Output);
+            __tagHelperExecutionContext = __tagHelperScopeManager.End();
+            WriteLiteral(@"
     </div>
 </div>
 <link href=""https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"" rel=""stylesheet"" />

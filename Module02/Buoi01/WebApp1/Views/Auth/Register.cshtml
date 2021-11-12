@@ -1,27 +1,37 @@
 ﻿@model WebApp1.ViewModels.RegisterModel
 @addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers 
 
+
+
+
+
+
+@{
+    Layout = "_LayoutRegister";
+}
+
+
 <form method="post">
-    <div>
-        <label asp-for="Username">User name</label>
-        <input type="text" asp-for="Username" />
+    <div class="form-group">
+        <label class="small mb-1" asp-for="Username">User name</label>
+        <input class="form-control py-4" type="text" asp-for="Username" placeholder="Enter Username" />
     </div>
-    <div>
-        <label asp-for="Password">Password</label>
-        <input type="text" asp-for="Password" />
+    <div class="form-group">
+        <label class="small mb-1" asp-for="Password">Password</label>
+        <input class="form-control py-4" type="password" asp-for="Password" placeholder="Enter password" />
     </div>
-    <div>
-        <label asp-for="Email">Email</label>
-        <input type="text" asp-for="Email" />
+    <div class="form-group">
+        <label class="small mb-1" asp-for="Email">Email</label>
+        <input class="form-control py-4" type="email" asp-for="Email" aria-describedby="emailHelp" placeholder="Enter Email" />
     </div>
-    <div>
-        <label asp-for="Gender">Gender</label>
-      <select asp-for="Gender">
-          <option value="0">Male</option>
+    <div class="form-group">
+        <label class="small mb-1" asp-for="Gender">Gender</label>
+      <select class="form-control py4" asp-for="Gender">
+          <option  value="0">Male</option>
           <option value="1">Female</option>
       </select>
     </div>
-    <div>
-        <button type="submit">Save Changes </button>
+    <div class="form-group mt-4 mb-0">
+        <button class="btn btn-primary btn-block" type="submit">Create Account </button>
     </div>
 </form>

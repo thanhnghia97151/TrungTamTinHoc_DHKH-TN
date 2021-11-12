@@ -16,4 +16,11 @@
     <Folder Include="wwwroot\data\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\js\jquery-3.6.0.min.js" />
+  </ItemGroup>
+
 </Project>

@@ -85,3 +85,60 @@ create table Member(
 )
 
 select * from Member
+
+create table [Role]
+(
+	RoleId uniqueidentifier not null primary key Default NewId(),
+	RoleName varchar(32) not null unique
+)
+
+create table MemberInRole
+(
+	MemberId char(32) not null references Member (MemberId),
+	RoleId uniqueidentifier not null references [Role](RoleId),
+	IsDeleted Bit not null default 0,
+	primary key (MemberId,RoleId)
+)
+
+--drop proc GetRolesByMember
+go
+create proc GetRolesByMember(@Id char(32))
+as
+	select Role.*, cast(iif(MemberId is null,0,1) as bit) as Checked from  [Role] left join MemberInRole
+	on [Role].RoleId = MemberInRole.RoleId
+	and MemberId = @Id and IsDeleted=0;
+go
+
+select * from [Role]
+
+exec GetRolesByMember @Id='F43236A0-ACFF-4A61-61A5-08D9A0516746';
+
+create proc SaveMemberInRole(@MemberId char(32), @RoleId uniqueidentifier)
+as
+	begin
+		if	exists(select * from MemberInRole where MemberId=@MemberId and RoleId =@RoleId)
+			update MemberInRole set IsDeleted =~IsDeleted  where MemberId = @MemberId and RoleId =@RoleId;
+		else 
+			insert into MemberInRole (MemberId,RoleId) values (@MemberId,@RoleId);
+	end
+go
+
+
+
+select * from Role
+
+--drop proc GetRolesByMemberId;
+go
+create proc GetRolesByMemberId(@Id char(32))
+as
+	select Role.* from Role join MemberInRole on Role.RoleId = MemberInRole.RoleId
+	where MemberId =@Id and IsDeleted=0;
+go
+exec GetRolesByMemberId
+
+select * from Member
+select * from Role
+select * from MemberInRole
+
+alter table Member add Token varchar(32)
+select * from Member
